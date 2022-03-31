@@ -1,0 +1,289 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+}
+
+h4 {
+  margin: 5px 0;
+}
+
+h3 {
+  margin: 15px 0;
+}
+/* main style */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  height: 1349px;
+  margin: 0 auto;
+}
+
+.main-content {
+  background-color: white;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 35px 90px;
+}
+
+/* about style */
+.about {
+  margin-bottom: 20px;
+}
+.about-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.about-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+  margin-left: 20px;
+}
+
+/* Project style */
+.project {
+  margin-bottom: 40px;
+}
+
+
+
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.team-project{
+font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;    
+}
+
+.project-link:hover , .project-link:focus{
+    color: #2196f3;
+}
+.project-link {
+  margin-left: 10px;
+}
+.project-tempes {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.project-list {
+  padding: 0%;
+  margin-left: 15px;
+}
+
+.project-link {
+  text-decoration: none;
+}
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.namber {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Woork style */
+.work {
+  margin-bottom: 60px;
+}
+
+.title-work {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.organization {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+.time-work {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.top-line {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.work-list {
+  padding: 0%;
+  margin-left: 15px;
+}
+.work-list-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* Education styse */
+.education {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+.my-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.time-work {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+.top-line {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+/* sidebar */
+.Sidebar {
+  background-color: #1e2939;
+}
+.foto {
+  margin-bottom: 50px;
+  margin-top: 40px;
+  width: 370px;
+}
+
+.contacts {
+  padding-left: 40px;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.t-skills {
+  padding-left: 20px;
+   color: #f8f1dc;
+}
+.s-skills {
+  padding-left: 20px;
+  color: white;
+}
+.tech-skills-item {
+  color: #fb6d3a;
+}
+.tech-skills-text {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f8f1dc;
+}
+.sidebar-title {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+
+.contact-type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+.contact-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8f1dc;
+  text-decoration: none;
+}
+
+.team-project {
+  padding-left: 10px;
+}
+
+.first-wrapper {
+  padding-bottom: 25px;
+}
+
+.education-wrapper {
+  margin-bottom: 40px;
+}
