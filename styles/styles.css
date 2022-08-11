@@ -32,8 +32,8 @@ h3 {
 .about-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 17px;
+  font-size: 35px;
+  line-height: 55px;
   color: #000000;
   margin-bottom: 20px;
   text-align: center;
@@ -42,10 +42,9 @@ h3 {
 .about-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 25px;
   line-height: 55px;
-  color: #000000;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 .about-description {
@@ -63,27 +62,26 @@ h3 {
   margin-bottom: 40px;
 }
 
-
-
 .project,
 .project-link {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 24px;
-  color: #595959;
+  line-height: 20px;
+  color: #060000;
 }
 
-.team-project{
-font-style: normal;
+.team-project {
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #595959;    
+  color: #000000;
 }
 
-.project-link:hover , .project-link:focus{
-    color: #2196f3;
+.project-link:hover,
+.project-link:focus {
+  color: #2196f3;
 }
 .project-link {
   margin-left: 10px;
@@ -211,6 +209,10 @@ font-style: normal;
   padding-left: 40px;
 }
 
+.contacts-list {
+  margin-bottom: 40px;
+}
+
 .contact-link:hover,
 .contact-link:focus {
   color: #2196f3;
@@ -230,9 +232,14 @@ font-style: normal;
   fill: currentColor;
 }
 
+.tech-skills {
+  margin-bottom: 40px;
+}
+
 .t-skills {
+  padding-top: 0px;
   padding-left: 20px;
-   color: #f8f1dc;
+  color: #f8f1dc;
 }
 .s-skills {
   padding-left: 20px;
